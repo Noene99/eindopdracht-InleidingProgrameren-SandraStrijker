@@ -1,0 +1,95 @@
+body {
+    background-color: beige;
+    color: #414141;                  
+    font-family: sans-serif, arial, helvetica;
+}
+/* header */
+#logo {
+    height: 10vh;
+    width: auto;
+    margin-bottom: 0;
+}
+
+/*main*/
+h1 {
+    margin: 0 0 0 31vw;
+}
+
+main>p {
+    margin: 1vh 0 1vh 31vw;
+}
+
+.container-main {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.container-scorebord {
+    background-color: white;
+    margin: 0;
+    width: 20vw;
+    text-align: center;
+    border-radius: 15px;
+    height: fit-content;
+    margin: 0 3vw;
+
+}
+
+#smiley-button {
+    width: 75px;
+    height: auto;
+}
+#discobal {
+    width: 75px;
+    height: auto;
+}
+#refresh-button {
+    width: 75px;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    max-width: 1000px;
+    margin: 0;
+}
+
+li {
+    height: 180px;
+    width: 216,72px;
+}
+
+.kaart {
+    height: 180px;
+    width: 216,72px;
+}
+.rood {
+    background-color: red;
+}
+
+.oranje {
+    background-color: orange;
+}
+.geel {
+    background-color: yellow;
+}
+.groen {
+    background-color: greenyellow;
+}
+.blauw {
+    background-color: aqua;
+}
+.paars {
+    background-color: violet;
+}
+
+
+/*footer*/
+footer {
+    height: 5vh;
+}
